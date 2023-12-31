@@ -1,5 +1,5 @@
 "--------------------------
-" Program  : NetlistWhereAmI(bindkey.vim)
+" Program  : NetlistWhereAmI(filetype.vim)
 " Language : Vim script
 " Author   : YEUNGCHIE
 "--------------------------
