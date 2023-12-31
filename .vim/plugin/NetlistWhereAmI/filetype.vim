@@ -7,5 +7,6 @@
 " 配置常见文件后缀名
 
 autocmd BufNewFile,BufRead *.verilog,*.v set filetype=verilog
+autocmd BufNewFile,BufRead *.spice,*.sp,*.cdl,*.src.net set filetype=spice
 
 " END
