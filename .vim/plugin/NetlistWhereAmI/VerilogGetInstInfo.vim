@@ -13,12 +13,12 @@ function! NetlistWhereAmI_VerilogGetInstInfo()
         \ }
     endif
     let l:pattern = '^\s*\(\w\+\)\s\+\(\w\+\)\s\+('
-    let l:lineNum = search(l:pattern, 'bnc')
+    let l:lineNum = search(l:pattern, 'Wbnc')
     if l:lineNum == 0
         return {
             \ 'status': 'none'
         \ }
-    elseif search('^endmodule', 'bnc', l:lineNum-1)
+    elseif search('^endmodule', 'Wbnc', l:lineNum-1)
         return {
             \ 'status': 'none'
         \ }
