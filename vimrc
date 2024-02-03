@@ -10,6 +10,7 @@ set smartindent
 set ruler
 set incsearch
 set ignorecase
+set visualbell
 
 set termencoding=utf-8
 set encoding=utf-8
